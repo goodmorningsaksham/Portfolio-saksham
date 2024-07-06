@@ -8,4 +8,7 @@ export default defineConfig({
     extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
   base: './',
+  build: {
+    outDir: 'build' // Specify the output directory
+  }
 })

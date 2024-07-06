@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'LM Roman 10';
+    src: url('/fonts/LMRoman10-Italic.woff2') format('woff2'),
+         url('/fonts/LMRoman10-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+     font-family: 'Helvetica';
+     src: url('/fonts/Helvetica.woff2') format('woff2'),
+          url('/fonts/Helvetica.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+   }
+   
+@font-face {
+     font-family: 'Helvetica-Bold';
+     src: url('/public/fonts/Helvetica-Bold.woff2') format('woff2'),
+          url('/public/fonts/Helvetica-Bold.woff') format('woff');
+     font-weight: bold;
+     font-style: normal;
+   }
