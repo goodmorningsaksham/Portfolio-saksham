@@ -1,0 +1,27 @@
+@import '/public/fonts/fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-kepler-bold-italic {
+    @apply font-kepler font-bold italic;
+  }
+
+
+
+.mobile-hidden {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .mobile-hidden {
+    display: block;
+  }
+}
+
+@media (max-width: 1023px) {
+  .desktop-hidden {
+    display: none;
+  }
+}
